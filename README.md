@@ -4,14 +4,14 @@ A comprehensive School Management System built with ASP.NET Core 9, featuring ro
 **Architecture**
 This project follows Clean Architecture principles with the following structure:
 
+```text
 SchoolManagementSystem/
-├── src/
-│ ├── SchoolManagementSystem.API/ # Web API Project (Controllers, Middleware)
-│ ├── SchoolManagementSystem.Application/ # Application Layer (DTOs, Services, Interfaces)
-│ ├── SchoolManagementSystem.Core/ # Domain Layer (Entities, Enums, Exceptions)
-│ └── SchoolManagementSystem.Infrastructure/# Infrastructure Layer (DbContext, Repositories)
-├── tests
-
+    ├── src/
+    │   ├── SchoolManagementSystem.API/           # Web API Project (Controllers, Middleware)
+    │   ├── SchoolManagementSystem.Application/   # Application Layer (DTOs, Services, Interfaces)
+    │   ├── SchoolManagementSystem.Core/          # Domain Layer (Entities, Enums, Exceptions)
+    │   └── SchoolManagementSystem.Infrastructure/ # Infrastructure Layer (DbContext, Repositories)
+    └── tests/
 
 **Database Structure**
 
