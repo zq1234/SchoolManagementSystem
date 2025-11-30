@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "SchoolManagementSystem.Application": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58738;http://localhost:58739"
+    }
+  }
+}

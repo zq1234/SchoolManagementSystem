@@ -1,0 +1,122 @@
+
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+*.userprefs
+
+.DS_Store
+Thumbs.db
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Oo]ut/
+
+# Visual Studio cache files
+.vs/
+.vscode/
+.idea/
+
+# ASP.NET Core published files
+publish/
+*.publishsettings
+*.pubxml
+*.pubxml.user
+
+#  project files
+.idea/
+*.sln.iml
+
+# ASP.NET Core secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs
+*.log
+Logs/
+Serilog/
+seq-logs/
+
+# Entity Framework Core Migrations
+**/Migrations/._*
+**/Migrations/obj/
+**/Migrations/Backup/
+**/Migrations/*.Designer.cs~
+**/Migrations/*Snapshot.cs~
+
+# EF Tools state
+.egm/
+*.dbmdl
+*.mdf
+*.ldf
+
+# Clean Architecture Projects
+Core/bin/
+Core/obj/
+Infrastructure/bin/
+Infrastructure/obj/
+Application/bin/
+Application/obj/
+API/bin/
+API/obj/
+
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+*.psmdcp
+
+
+# Backup & temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# SQL files
+*.mdf
+*.ldf
+*.ndf
+
+# Compiled DLLs & Exe
+*.dll
+*.exe
+*.pdb
+*.cache
+*.svg
+
+# Cache files
+*.cache
+*.config
+*.db
+*.pid
+
+
+
+# Testing
+TestResults/
+coverage/
+*.coverage
+coverage.xml
+
+# Publish Profiles
+Properties/PublishProfiles/
+*.pubxml
+*.pubxml.user
+
